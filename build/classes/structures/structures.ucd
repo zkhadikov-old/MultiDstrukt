@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" size="1196,750" id="structures" metadata="uml2-1.0" initialized="true" tag="1000" key="32303037303533312D31303030204D756C746944537472756B742F6B767A757261">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.2" name="DimensionHierarchie" location="780,529" size="365,193" id="structures/DimensionHierarchie" runTimeClassModel="DimensionHierarchie(Ljava.lang.String;Lstructures.LoHiNode;),name,DimensionHierarchie(Ljava.lang.String;Lstructures.LoHiList;),lohi,DimensionHierarchie(Ljava.lang.String;[Lstructures.DimensionHierarchie;),children,getLoHi()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="192,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="structures/DimensionHierarchie#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="children" id="structures/DimensionHierarchie#children"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lohi" id="structures/DimensionHierarchie#lohi"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="342,90">
+      <children xsi:type="editmodel:MethodEditModel" name="DimensionHierarchie" id="structures/DimensionHierarchie#DimensionHierarchie(Ljava.lang.String;Lstructures.LoHiList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DimensionHierarchie" id="structures/DimensionHierarchie#DimensionHierarchie(Ljava.lang.String;Lstructures.LoHiNode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DimensionHierarchie" id="structures/DimensionHierarchie#DimensionHierarchie(Ljava.lang.String;Lstructures.LoHiNode;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DimensionHierarchie" id="structures/DimensionHierarchie#DimensionHierarchie(Ljava.lang.String;[Lstructures.DimensionHierarchie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLoHi" id="structures/DimensionHierarchie#getLoHi()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.2 //@children.5/@sourceConnections.0 //@children.5/@sourceConnections.1 //@children.6/@sourceConnections.1" name="IStrategie" location="360,551" size="382,171" id="structures/IStrategie" runTimeClassModel="getCellsForCellUpdate(ID),getName(),getCellsForRangeSum(II),getDimLength(),getID(),precompute(Lstructures.IDC;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="359,108">
+      <children xsi:type="editmodel:MethodEditModel" name="getCellsForRangeSum" id="structures/IStrategie#getCellsForRangeSum(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellsForCellUpdate" id="structures/IStrategie#getCellsForCellUpdate(ID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="precompute" id="structures/IStrategie#precompute(Lstructures.IDC;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="structures/IStrategie#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="structures/IStrategie#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDimLength" id="structures/IStrategie#getDimLength()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IStrategie-Soyatec::Import->structures/IDC" source="//@children.1" target="//@children.3" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="24,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="354,392"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.6/@sourceConnections.3" name="Dimension" location="860,79" size="205,139" id="structures/Dimension" runTimeClassModel="getName(),Dimension(ILjava.lang.String;),getSize(),name,size">
+    <children xsi:type="editmodel:CompartmentEditModel" size="79,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="structures/Dimension#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="size" id="structures/Dimension#size"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="182,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Dimension" id="structures/Dimension#Dimension(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="structures/Dimension#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSize" id="structures/Dimension#getSize()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0 //@children.5/@sourceConnections.2" name="IDC" location="30,45" size="379,392" id="structures/IDC" runTimeClassModel="coordinatesValidation([I),getPosition([I),getSize(),IDC(),setCellValue([ID),rangeUpdate([I[ID),getDescription(),rangeValidator([I[I),dimension,getShape(),precompute(),initialize([I[Ljava.lang.String;),getRangeSum([I[I),dimensionality,getCellValue([I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="204,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="werte" id="structures/IDC#werte"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="realSize" id="structures/IDC#realSize"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dimension" id="structures/IDC#dimension"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dimensionality" id="structures/IDC#dimensionality"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="356,252">
+      <children xsi:type="editmodel:MethodEditModel" name="rangeUpdate" id="structures/IDC#rangeUpdate([I[ID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="structures/IDC#initialize([I[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCellValue" id="structures/IDC#setCellValue([ID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPosition" id="structures/IDC#getPosition([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShape" id="structures/IDC#getShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="structures/IDC#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSize" id="structures/IDC#getSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellValue" id="structures/IDC#getCellValue([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="precompute" id="structures/IDC#precompute()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRangeSum" id="structures/IDC#getRangeSum([I[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="coordinatesValidation" id="structures/IDC#coordinatesValidation([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="IDC" id="structures/IDC#IDC()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rangeValidator" id="structures/IDC#rangeValidator([I[I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="structures/OlapCube&lt;-structures/IDC" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.1" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="379,103" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,103"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDC-Soyatec::Implement->structures/OlapCube" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="59,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="379,83" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,83"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDC-Standard::Call->structures/IStrategie*structures/IDC-Soyatec::Import->structures/IStrategie" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call»" location="319,495" size="64,14" automaticRelocationAllowed="false" locationOnWireFromSource="12.224650624477658" distanceFromWire="-20.11362516080724" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="354,392" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="4,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDC-Standard::Call->structures/IDCDimension*structures/IDC-Standard::Instantiate->structures/IDCDimension*structures/IDC-Soyatec::Import->structures/IDCDimension*structures/IDC-Soyatec::Access->structures/IDCDimension" source="//@children.3" target="//@children.6" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Access, Instantiate»" size="163,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="379,323" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,68"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.3/@sourceConnections.0 //@children.3/@sourceConnections.1" name="OlapCube" location="510,45" size="293,207" id="structures/OlapCube" runTimeClassModel="getDescription(),getShape(),initialize([I[Ljava.lang.String;),getSize(),getRangeSum([I[I),setCellValue([ID),rangeUpdate([I[ID),getCellValue([I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="270,144">
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="structures/OlapCube#initialize([I[Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setCellValue" id="structures/OlapCube#setCellValue([ID)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellValue" id="structures/OlapCube#getCellValue([I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRangeSum" id="structures/OlapCube#getRangeSum([I[I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getShape" id="structures/OlapCube#getShape()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDescription" id="structures/OlapCube#getDescription()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSize" id="structures/OlapCube#getSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="rangeUpdate" id="structures/OlapCube#rangeUpdate([I[ID)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SRPS" location="30,537" size="178,212" id="structures/SRPS" runTimeClassModel="getCellsForCellUpdate(ID),getName(),getCellsForRangeSum(II),dimLength,getDimLength(),getID(),SRPS(II),precompute(Lstructures.IDC;I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="99,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="dimLength" id="structures/SRPS#dimLength"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="155,144">
+      <children xsi:type="editmodel:MethodEditModel" name="SRPS" id="structures/SRPS#SRPS(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellsForRangeSum" id="structures/SRPS#getCellsForRangeSum(II)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDimLength" id="structures/SRPS#getDimLength()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="structures/SRPS#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="structures/SRPS#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="precompute" id="structures/SRPS#precompute(Lstructures.IDC;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="precompute" id="structures/SRPS#precompute(Lstructures.IDC;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getCellsForCellUpdate" id="structures/SRPS#getCellsForCellUpdate(ID)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="structures/IStrategie&lt;-structures/SRPS" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,99" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,85"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/SRPS-Soyatec::Implement->structures/IStrategie" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" location="237,635" size="59,14" automaticRelocationAllowed="false" locationOnWireFromSource="-16.615850459320054" distanceFromWire="6.396367212216137" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,119" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,89"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/SRPS-Standard::Call->structures/IDC*structures/SRPS-Soyatec::Access->structures/IDC*structures/SRPS-Soyatec::Import->structures/IDC" source="//@children.5" target="//@children.3" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Access»" location="14,485" size="108,14" automaticRelocationAllowed="false" locationOnWireFromSource="-5.0" distanceFromWire="50.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="88,392"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.3" name="IDCDimension" location="675,300" size="269,175" id="structures/IDCDimension" runTimeClassModel="setStrategie(Lstructures.IStrategie;),getHierarchie(),start,setHierarchie(Lstructures.DimensionHierarchie;),getStrategie(),IDCDimension(ILjava.lang.String;),strategie">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="strategie" id="structures/IDCDimension#strategie"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="start" id="structures/IDCDimension#start"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="246,90">
+      <children xsi:type="editmodel:MethodEditModel" name="IDCDimension" id="structures/IDCDimension#IDCDimension(ILjava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setHierarchie" id="structures/IDCDimension#setHierarchie(Lstructures.DimensionHierarchie;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getHierarchie" id="structures/IDCDimension#getHierarchie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrategie" id="structures/IDCDimension#getStrategie()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setStrategie" id="structures/IDCDimension#setStrategie(Lstructures.IStrategie;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="structures/Dimension&lt;-structures/IDCDimension" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.0/@children.1" sourceEnd="//@children.6/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="226,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="41,139"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDCDimension-Soyatec::Import->structures/IStrategie" source="//@children.6" target="//@children.1" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="348,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDCDimension-Soyatec::Import->structures/DimensionHierarchie" source="//@children.6" target="//@children.0" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="41,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="186,175" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="structures/IDCDimension-Standard::Derive->structures/Dimension" source="//@children.6" target="//@children.2" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" location="924,220" size="43,14" automaticRelocationAllowed="false" locationOnWireFromSource="32.0" distanceFromWire="-24.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="246,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,139"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" showMethodsParameterTypes="true" showMethodsReturnType="true" showMethodsParameterNames="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
